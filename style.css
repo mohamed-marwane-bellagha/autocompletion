@@ -1,0 +1,87 @@
+body,html{
+    min-height: 100vh;
+    margin:0%;
+}
+@font-face {
+    font-family: "obelix";
+    src: url("ObelixProB-cyr.ttf") format("truetype");
+   }
+.title{
+ text-align: center;
+ font-size: xx-large;
+ font-family: 'obelix';
+ color: red
+}
+#index{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('ideafix-asterix-obelix.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+a:visited{
+    text-decoration: none;
+    color:black
+}
+.resultcontainer{
+    text-align:center;
+    color:white !important;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.backindex{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+#result{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5%;
+    right:7%
+}
+#recherche{
+    min-height:94vh;
+    background-image: url('banquet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.dropdown-content {
+    position: absolute;
+    background-color: white;
+}
+.formsearch{
+    display: flex;
+    justify-content: flex-end;
+}
+#element{
+    min-height: 97vh;
+    background-image: url('villagegaulois.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    background-color: rgba(255, 255, 255,0.75);
+    width:15%;
+    text-align: center;
+    border-radius: 20px;
+}
